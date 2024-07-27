@@ -1,0 +1,11 @@
+public class ReverseString {
+    public static void main(String[] args) {
+        String input = "TEMPLE";
+                int length = input.length();
+                String reversed = "";
+        for (int i = length - 1; i >= 0; i--) {
+            reversed += input.charAt(i);
+        }
+        System.out.println("Reverse String: " + reversed);
+    }
+}
